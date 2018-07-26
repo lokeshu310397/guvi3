@@ -20,7 +20,7 @@ class Ideone
 		}
 		else
 		{
-			System.out.println("Negitive");
+			System.out.println("Negative");
 		}
 	}
 }
