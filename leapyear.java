@@ -11,24 +11,24 @@ class Ideone
 	{
 	Scanner s = new Scanner(System.in);
 	int year = s.nextInt();
-	boolean flag = false;
+	boolean n = false;
 	if(year % 400 == 0)
 	{
-            	flag = true;
+            	n = true;
 	}
 	else if (year % 100 == 0)
 	{
-            	flag = false;
+            	n = false;
 	}
 	else if(year % 4 == 0)
 	{
-            	flag = true;
+            	n = true;
 	}
 	else
 	{
-            	flag = false;
+            	n = false;
 	}
-	if(flag)
+	if(n)
 	{
             	System.out.println("yes");
 	}
